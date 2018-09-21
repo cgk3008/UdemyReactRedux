@@ -1,14 +1,12 @@
 ﻿module.exports = {
-
     context: __dirname,
     entry: "./app.js",
+    mode: 'development',
     output: {
         path: __dirname + "/dist",
         filename: "bundle.js"
     },
-
     watch: true,
-
     module: {
         rules: [
             {
@@ -23,7 +21,4 @@
             }
         ]
     }
-
-
-
 }

@@ -243,15 +243,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\index.html" />
-    <Content Include="Assets\src\actions\index.js" />
-    <Content Include="Assets\src\components\app.js" />
-    <Content Include="Assets\src\index.js" />
-    <Content Include="Assets\src\reducers\index.js" />
-    <Content Include="Assets\style\style.css" />
-    <Content Include="Assets\test\components\app_test.js" />
-    <Content Include="Assets\test\test_helper.js" />
-    <Content Include="Assets\webpack.config.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -263,13 +254,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\.babelrc" />
-    <Content Include="Assets\.gitignore" />
-    <Content Include="Assets\.npmrc" />
-    <Content Include="Assets\LICENSE.MD" />
-    <Content Include="Assets\package-lock.json" />
-    <Content Include="Assets\package.json" />
-    <Content Include="Assets\README.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -279,9 +263,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\React\app.js" />
-    <Content Include="Scripts\React\dist\bundle.js" />
-    <Content Include="Scripts\React\webpack.config.js" />
+    <Content Include="Scripts\react\app.js" />
+    <Content Include="Scripts\react\dist\bundle.js" />
+    <Content Include="Scripts\react\webpack.config.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Web.config" />
@@ -318,7 +302,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Scripts\React\package.json" />
+    <Content Include="Scripts\react\package.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
