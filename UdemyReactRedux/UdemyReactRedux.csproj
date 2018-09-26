@@ -265,6 +265,11 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\react\app.js" />
     <Content Include="Scripts\react\dist\bundle.js" />
+    <Content Include="Scripts\react\src\components\search_bar.js" />
+    <Content Include="Scripts\react\src\components\video_details.js" />
+    <Content Include="Scripts\react\src\components\video_list.js" />
+    <Content Include="Scripts\react\src\components\video_list_items.js" />
+    <Content Include="Scripts\react\src\index.js" />
     <Content Include="Scripts\react\webpack.config.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
